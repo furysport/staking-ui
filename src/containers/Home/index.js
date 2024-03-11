@@ -81,7 +81,7 @@ class Home extends Component {
             <>
                 <NavBar home={true} />
                 <div className="home padding">
-                <div className="z-50 shadow-lg card bg-gradient-to-r from-423da1 via-20bdff to-A5FECB">
+                <div className="z-50 shadow-lg card bg-gradient-to-r from-#423da1 via-#20bdff to-#A5FECB">
                         <div className="left_content">
                             <h2>{variables[this.props.lang].welcome}</h2>
                             <p className="info">
