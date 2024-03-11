@@ -105,7 +105,7 @@ background: white;
 
 .nav_bar .horizontal_tabs .tab.active_tab {
     background: #FFFFFF;
-    background-image: linear-gradient(to right, rgb(192, 132, 252), rgb(236, 72, 153), rgb(239, 68, 68));
+    background-image: linear-gradient(to right, #423da1, #20bdff, #A5FECB);
     color: white;
 }
 
