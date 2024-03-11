@@ -124,7 +124,7 @@ class Home extends Component {
                                             'unbonding_period'
                                         ]
                                     }{' '}
-                                    14 {variables[this.props.lang].days}
+                                    21 {variables[this.props.lang].days}
                                 </p>
                                 <Button
                                     className="view_all"

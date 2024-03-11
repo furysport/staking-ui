@@ -42,7 +42,7 @@ const Stake = (props) => {
                         </p>
                     </div>
                     <p className="font-medium text-white">
-                        Unbonding period: 14 days
+                        Unbonding period: 21 days
                     </p>
                 </div>
                 <Table active={active} />

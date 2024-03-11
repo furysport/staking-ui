@@ -212,12 +212,12 @@ const DelegateDialog = (props) => {
                             <p className="font-semibold text-red-500">
                                 {props.name === 'Undelegate'
                                     ? 'Are you sure you want to unbond your tokens?'
-                                    : 'Staking will lock your funds for 14 days'}
+                                    : 'Staking will lock your funds for 21 days'}
                             </p>
                             <p className="text-sm font-medium">
                                 {props.name === 'Undelegate'
-                                    ? 'Unbonding cannot be cancelled, and you will not collect any staking rewards while unbonding these tokens. Unbonding will last 14 days.'
-                                    : 'Once you undelegate your staked STARS, you will need to wait 14 days for your tokens to be liquid.'}
+                                    ? 'Unbonding cannot be cancelled, and you will not collect any staking rewards while unbonding these tokens. Unbonding will last 21 days.'
+                                    : 'Once you undelegate your staked STARS, you will need to wait 21 days for your tokens to be liquid.'}
                             </p>
                         </div>
                         <p>Choose the validator</p>

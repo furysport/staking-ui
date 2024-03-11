@@ -11,7 +11,7 @@ const variables = {
         connect_keplr: 'Connect with Keplr',
         welcome: `Welcome to the ${config.NETWORK_NAME} community`,
         participate:
-            'Stake your $STARS & interact with the community via governance proposals!',
+            'Stake your $FURY & interact with the community via governance proposals!',
         total_tokens: 'Total Tokens',
         available_tokens: 'Available Tokens',
         staked_tokens: 'Staked Tokens',
