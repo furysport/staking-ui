@@ -62,7 +62,7 @@ const ConnectButton = (props) => {
 
     return (
         <button
-            className="inline-flex items-center px-6 py-1.5 text-base font-bold text-white rounded-full shadow-sm disabled:opacity-80 hover:opacity-95 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        className="inline-flex items-center px-6 py-1.5 text-base font-bold text-white rounded-full shadow-sm disabled:opacity-80 hover:opacity-95 bg-gradient-to-r from-indigo-600 via-fuchsia-500 to-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             disabled={inProgress}
             variant="contained"
             onClick={initKeplr}
