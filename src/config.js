@@ -1,7 +1,7 @@
 export const config = {
-    RPC_URL: 'https://rpc.furya.xyz',
-    REST_URL: 'https://api.furya.xyz',
-    EXPLORER_URL: 'https://explorer.furya.wtf/furya',
+    RPC_URL: 'https://furya-rpc.synergynodes.com',
+    REST_URL: 'https://furya-api.synergynodes.com',
+    EXPLORER_URL: 'https://explorer.nodeshub.online/furya',
     NETWORK_NAME: 'Furya',
     NETWORK_TYPE: 'mainnet',
     CHAIN_ID: 'furya-1',
@@ -13,8 +13,8 @@ export const config = {
     COIN_TYPE: 118,
     COINGECKO_ID: 'fanfury',
     DEFAULT_GAS: 250000,
-    GAS_PRICE_STEP_LOW: 0.0,
-    GAS_PRICE_STEP_AVERAGE: 0.0,
+    GAS_PRICE_STEP_LOW: 0.01,
+    GAS_PRICE_STEP_AVERAGE: 0.025,
     GAS_PRICE_STEP_HIGH: 0.025,
     FEATURES: ['stargate', 'ibc-transfer', 'no-legacy-stdTx'],
 };
