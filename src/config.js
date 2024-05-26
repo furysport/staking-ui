@@ -1,6 +1,14 @@
 export const config = {
-    RPC_URL: 'https://furya-rpc.synergynodes.com',
-    REST_URL: 'https://furya-api.synergynodes.com',
+    RPC_URL: [
+        'https://rpc.furya.xyz',
+        'https://furya-rpc.synergynodes.com',
+        'https://furya.rpc.nodeshub.online/',
+    ],
+    REST_URL: [
+        'https://api.furya.xyz',
+        'https://furya.api.nodeshub.online/',
+        'https://furya-api.synergynodes.com',
+    ],
     EXPLORER_URL: 'https://explorer.nodeshub.online/furya',
     NETWORK_NAME: 'Furya',
     NETWORK_TYPE: 'mainnet',
